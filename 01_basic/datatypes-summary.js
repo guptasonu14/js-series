@@ -35,3 +35,27 @@ const myFunction = function(){
 console.log(typeof outSideTemp);
 
 
+//+++++++++++++++++++++++++++++++++++++++++++
+
+//Stack , Heap memory
+//Stack is used in primitive datatypes
+//Heap is used in Non primitive datatypes
+
+
+let myYoutubeName = "journey"
+let anotherName = myYoutubeName;
+anotherName = "chai aur code"
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@googlr.com",
+    upi: "use@upi"
+}
+
+
+let userTwo = userOne;
+
+userTwo.email = "sonu@google.com";
+console.log(userOne.email);
+console.log(userTwo.email);
