@@ -1,8 +1,8 @@
 const coding =["js","cpp","java","ruby","py"]
 
-// coding.forEach(function (item) {
-//     console.log(item);
-// } )
+coding.forEach(function (item) {
+    console.log(item);
+} )
 
 
 // coding.forEach((val)=>{
