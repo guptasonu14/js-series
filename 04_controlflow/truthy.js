@@ -1,5 +1,3 @@
-
-
 const userEmail = []
 
 if (userEmail) {
